@@ -1,0 +1,54 @@
+
+
+html{
+	font-family: 'Century Gothic','Microsoft YaHei',Verdana;
+	min-width: 1024px;
+}
+
+.appbar{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:55px;
+	width:100%;
+	background-color: white;
+	min-width: 1024px;
+}
+
+.appbar-logo img{
+	top:9px;
+	position: relative;
+}
+
+.appbar-logo a{
+	margin-left: 5px;
+	font-size:1.1em;
+	line-height: 3.1;
+}
+
+.appbar-logo{
+	margin-left: 55px;
+	float:left;
+}
+
+.appbar-right{
+	float:right;
+	margin-right: 55px;
+}
+
+.appbar-button li{
+	width:100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	display:inline
+}
+.appbar-button li:hover{
+	color: red;
+	border-bottom:solid;
+	border-bottom-color: red;
+	padding-bottom:15px;
+}
+
+body{
+	background-color: lightskyblue;
+}
